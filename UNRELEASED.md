@@ -44,6 +44,7 @@ Use [the changelog guidelines](https://git.io/polaris-changelog-guidelines) to f
 - Fixed `BulkActionButton` from throwing an error in `componentDidMount` ([#1913](https://github.com/Shopify/polaris-react/pull/1913))
 - Fixed `ToastManager` from not working correctly in `React.StrictMode` ([#1741](https://github.com/Shopify/polaris-react/pull/1741))
 - Updated translation.yml with the new locales path ([#1649](https://github.com/Shopify/polaris-react/pull/1649))
+- Fixed `ResourceList` `Item` deselect ([#1952](https://github.com/Shopify/polaris-react/pull/1952))
 
 ### Documentation
 
