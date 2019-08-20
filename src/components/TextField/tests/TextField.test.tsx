@@ -473,15 +473,14 @@ describe('<TextField />', () => {
         />,
       );
 
-      expect(
-        textField.find('#MyFieldCharacterCounter').prop<string>('aria-live'),
-      ).toBe('off');
+      expect(textField.find('#MyFieldCharacterCounter').prop('aria-live')).toBe(
+        'off',
+      );
 
       textField.find('input').simulate('focus');
-
-      expect(
-        textField.find('#MyFieldCharacterCounter').prop<string>('aria-live'),
-      ).toBe('polite');
+      expect(textField.find('#MyFieldCharacterCounter').prop('aria-live')).toBe(
+        'polite',
+      );
     });
   });
 
